@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #fafaff;
+  color: #241f33;
+  font-family: "Inter", sans-serif;
+}
+
+/* thin scrollbar matching the light theme instead of the chunky default */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fafaff;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cdf0;
+  border-radius: 4px;
+}
