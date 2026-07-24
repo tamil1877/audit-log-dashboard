@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:5000/api/logs";
+const BASE_URL = "http://audit-log-dashboard-fce9.onrender.com/api/logs";
 
 // Builds a query string from a params object, skipping anything
 // empty so we don't send "severity=" and accidentally filter on
